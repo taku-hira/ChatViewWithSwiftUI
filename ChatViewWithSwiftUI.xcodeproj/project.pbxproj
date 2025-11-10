@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		67813E1F2EC0D13E00CA6B29 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67813E1E2EC0D13E00CA6B29 /* ChatView.swift */; };
+		67813E232EC22B8100CA6B29 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67813E222EC22B8100CA6B29 /* MessageRow.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		67813E102EC0D06E00CA6B29 /* ChatViewWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatViewWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67813E1E2EC0D13E00CA6B29 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		67813E222EC22B8100CA6B29 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				67813E122EC0D06E00CA6B29 /* ChatViewWithSwiftUI */,
+				67813E242EC22BA300CA6B29 /* Views */,
 				67813E112EC0D06E00CA6B29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +51,15 @@
 				67813E102EC0D06E00CA6B29 /* ChatViewWithSwiftUI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		67813E242EC22BA300CA6B29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67813E1E2EC0D13E00CA6B29 /* ChatView.swift */,
+				67813E222EC22B8100CA6B29 /* MessageRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67813E1F2EC0D13E00CA6B29 /* ChatView.swift in Sources */,
+				67813E232EC22B8100CA6B29 /* MessageRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
